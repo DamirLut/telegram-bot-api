@@ -15,6 +15,9 @@ jobs:
     env:
       IMAGE_TAG: ghcr.io/damirlut/telegram-bot-api
       ALPINE_VERSION: '3.21'
+    permissions:
+      contents: read
+      packages: write
 
     steps:
       - name: Checkout current repo
