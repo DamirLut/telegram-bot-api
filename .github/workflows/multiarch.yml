@@ -13,7 +13,7 @@ jobs:
     name: Build Docker image
     runs-on: ubuntu-latest
     env:
-      IMAGE_TAG: ghcr.io/enucatl/telegram-bot-api
+      IMAGE_TAG: ghcr.io/damirlut/telegram-bot-api
       ALPINE_VERSION: '3.21'
 
     steps:
